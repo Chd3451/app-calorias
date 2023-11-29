@@ -2,15 +2,15 @@ import React, {useCallback, useState} from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import {Button, Icon} from '@rneui/themed';
 
-import Header from '../../components/header';
+import Header from '../../organism/header';
 import {useNavigation, useFocusEffect} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {Meal, RootStackParamList} from '../../types';
-import useFoodStorage from '../../hooks/storage-food';
+import {Meal, RootStackParamList} from '../../../types';
+import useFoodStorage from '../../../hooks/storage-food';
 import TodayCalories, {
   TodayCaloriesProps,
-} from '../../components/today-calories';
-import TodayMeals from '../../components/today-meals';
+} from '../../organism/today-calories';
+import TodayMeals from '../../organism/today-meals';
 
 const totalCaloriesPerDay = 2000;
 
