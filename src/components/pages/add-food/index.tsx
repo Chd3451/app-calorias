@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react';
 
 import {View, Text, StyleSheet, Alert, ScrollView} from 'react-native';
-import Header from '../../components/header';
+import Header from '../../organism/header';
 import {Button, Icon, Input} from '@rneui/themed';
-import AddFoodModal from '../../components/add-food-mod';
-import useFoodStorage from '../../hooks/storage-food';
-import {Meal} from '../../types';
-import MealItem from '../../components/meal-item';
+import AddFoodModal from '../../molecules/add-food-mod';
+import useFoodStorage from '../../../hooks/storage-food';
+import {Meal} from '../../../types';
+import MealItem from '../../organism/meal-item';
 
 const AddFood = () => {
   const [visible, setIsVisible] = useState<boolean>(false);
