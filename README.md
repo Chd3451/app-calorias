@@ -8,7 +8,7 @@
 
 	
 <picture><img src = "https://avatars.githubusercontent.com/u/63863286?v=4" width = 50px></picture> <picture><img src = "https://avatars.githubusercontent.com/u/49769503?v=4" width = 50px></picture> 
-# NASA API APP
+# Count Calories
 
 
 
@@ -24,6 +24,9 @@ This project is a little different from the previous one <br>
   components such as the header, all the screens, etc.
 
 <br><br>
+<br><br><br>
+<img src="https://raw.githubusercontent.com/JeffersonHidalgo/Readme-Doc2/main/cal1.jpeg" width="200" height="340" style="float: left;">
+<img src="https://raw.githubusercontent.com/JeffersonHidalgo/Readme-Doc2/main/cal2.jpeg" width="200" height="340" style="float: left;">
 
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Tools, languages and systems used. </b>
